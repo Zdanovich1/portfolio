@@ -1,0 +1,162 @@
+/*!Обнуление*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+
+/*!------------Конец обнуления-------------*/
+
+body {
+   background-color: #ffffff;
+}
+
+/**Header*/
+
+.header__container {
+   max-width: 1220px;
+   height: 60px;
+   margin: 30px auto 72px auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.menu__list,
+.header__menu,
+.menu__buttons {
+   display: flex;
+}
+
+.menu__list,
+.header__menu {
+   gap: 34px;
+}
+
+.menu__list {
+   align-items: center;
+   font-family: Inter, sans-serif;
+   font-size: 16px;
+   line-height: 19.36px;
+}
+
+.menu__link {
+   color: #B8BECD;
+   font-weight: 400;
+}
+
+.menu__link_active {
+   color: #202336;
+   font-weight: 600;
+   margin-right: 2px;
+}
+
+.menu__buttons {
+   gap: 18px;
+}
+
+.button {
+   font-family: Inter, sans-serif;
+   font-size: 15px;
+   line-height: 60px;
+   color: #ffffff;
+   border-radius: 8px;
+   background-color: #FB8F1D;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.menu__buttons .button {
+   width: 132px;
+   height: 44px;
+}
+
+.button_login {
+   color: #FB8F1D;
+   background-color: #ffffff;
+   border: 1px solid #FB8F1D;
+}
